@@ -5,16 +5,16 @@ body {
 	background: url(../images/bg.jpg);
 }
 .user-login {
-	position: relative;
-	left: 0;
-	top: 0;
-	padding: 120px 0;
-	min-height: 100%;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
 	box-sizing: border-box;
 }
 .user-login-main {
-	width: 375px;
-	margin: 0 auto;
+	width: 380px;
+	height: 320px;
 	box-sizing: border-box;
 	background: #ccc;
 	background-color: rgba(248,248,255,0.2);
@@ -35,8 +35,18 @@ body {
 	font-weight: 300;
 	color: #eee;
 }
+.user-login-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user-login-title span{
+	color: #1296DB;
+	margin-left: 10px;
+	font-size: 30px;
+}
 .user-login-box {
-	padding: 20px;
+	padding: 20px 40px;
 }
 .user-login-icon {
 	position: absolute;

@@ -102,7 +102,7 @@ class IndexController extends Controller
             json(0, '验证码错误！');
         }
         
-        // 就收数据
+        // 接收数据
         $username = post('username');
         $password = post('password');
         

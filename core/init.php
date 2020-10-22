@@ -107,6 +107,11 @@ define('CORE_VERSION', Config::get('core_version'));
 define('APP_VERSION', Config::get('app_version'));
 define('RELEASE_TIME', Config::get('release_time'));
 
+
+//定义后台基本信息常量
+define('ADMIN_WEBSITE_NAME', Config::get('admin_website_name'));
+
+
 // 环境检查
 Check::checkApp(); // 检查APP配置
 Check::checkBasicDir(); // 检查基础目录
