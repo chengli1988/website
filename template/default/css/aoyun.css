@@ -217,9 +217,9 @@ a.page-num:hover, .page-link:hover {
 	left: 30px;
 }
 .preview .swiper-slide {
-	width: 87.5px;
+	width: auto;
 	height: 70px;
-	margin: 0 3px;
+	margin: 0 5px;
 	box-sizing: border-box;
 	overflow: hidden;
 	cursor: pointer;
@@ -344,6 +344,7 @@ a.page-num:hover, .page-link:hover {
 
 /*sm屏幕以上*/
 @media only screen and (min-width: 576px) {
+.card-img {}
 .card-img-200 {
 	height: 200px;
 	overflow: hidden;
@@ -364,6 +365,8 @@ a.page-num:hover, .page-link:hover {
 	height: 100px;
 	overflow: hidden;
 }
+.card-title {height: 42px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+.card-text {min-height: 21px;}
 }
 /*sm屏幕以下*/
 @media only screen and (max-width: 576px) {

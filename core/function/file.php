@@ -489,7 +489,7 @@ function watermark_img($src_image, $out_image = null, $position = null, $waterma
     
     // 如果不存在文字及图片则直接返回
     if (! $watermark_text) {
-        $watermark_text = Config::get('watermark_text') ?: 'PbootCMS';
+        $watermark_text = Config::get('watermark_text') ?: '';
     }
     $watermark_image = $watermark_image ?: Config::get('watermark_pic');
     if (! $watermark_text && ! $watermark_image) {

@@ -16,7 +16,7 @@ define('START_TIME', microtime(true));
 // 设置字符集编码、IE文档模式
 header('Content-Type:text/html; charset=utf-8');
 header('X-UA-Compatible:IE=edge,chrome=1');
-header('X-Powered-By:PbootCMS');
+header('X-Powered-By:PHP');
 
 // 设置中国时区
 date_default_timezone_set('Asia/Shanghai');
